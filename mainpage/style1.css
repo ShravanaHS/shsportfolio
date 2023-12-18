@@ -1,0 +1,80 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #EEF0E5;
+    color: #163020;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+form {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+label {
+    margin: 8px 0;
+    display: block;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0cdf6b;
+}
+
+
+button {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #0c4e25;
+    color: #EEF0E5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.passinfo {
+    color: #0c4e25;
+}
+
+.footer {
+    align-items: center;
+}

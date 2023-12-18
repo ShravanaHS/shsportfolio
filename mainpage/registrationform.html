@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <form id="registrationForm" onsubmit="validateForm(event)">
+        <h2 style="text-align: center; color: #0c4e25;">Student Registration Form</h2>
+        <br>
+        enter your full name(as in aadhar)
+        <input type="text" placeholder="first name" id="firstname" name="firstname" required>
+        <input type="text" placeholder="last name" id="lastname">
+        <p>enter your gmail address</p>
+        <input type="email" id="gmailAddress" name="gmailAddress" placeholder="@gmail.com" required>
+        select the course you want to join
+        <select name="subject" id="cs">
+
+            <option value="electronics">electronics</option>
+            <option value="network analysis">network analysis</option>
+            <option value="c programming"> c programming </option>
+            <option value="python"> python</option>
+            <option value="web development"> web development </option>
+            <option value="AI&ML">AI&ML</option>
+            <option value="data structure"> data structure</option>
+
+        </select>
+
+        <p>enter username with <b>strong password</b></p>
+        <input type="text" placeholder="username" id="username" name="username" required>
+
+        <br>
+        <input type="password" placeholder="password" id="password" name="password" required>
+        <p class="passinfo"><b>Note: </b>Password must contain at least one uppercase letter, one number, and at least 8
+            characters long.</p>
+        <br>
+
+        <br>
+
+        <br>
+
+        <button type="submit">Register</button>
+
+
+    </form>
+
+    <script src="script.js"></script>
+    <footer>
+        <div style="text-align: center; background-color: #0c4e25; color: #EEF0E5;">
+            <p>&copy; shs creations. All rights reserved.</p>
+
+        </div>
+    </footer>
+</body>
+
+</html>
