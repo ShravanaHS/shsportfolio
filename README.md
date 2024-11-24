@@ -37,8 +37,3 @@ Below are some screenshots of the webpage:
    git clone <repository-link>
 
 ---
-
-## How to Use
-1. Clone the repository:
-   ```bash
-   git clone <repository-link>
